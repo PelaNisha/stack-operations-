@@ -27,7 +27,6 @@ void push()
 	}
 	else
 	{
-//		top->next=nnode->info;
 		nnode->next= top;
 		top = nnode;
 		printf("element pushed\n");
